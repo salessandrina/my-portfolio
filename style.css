@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.role {
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.project {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #00796b;
+}
