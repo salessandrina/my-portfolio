@@ -1,43 +1,65 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #e0f7fa;
-  padding: 40px;
+  font-family: 'Inter', sans-serif;
+  background-color: #f1f5f9;
+  padding: 60px;
+  line-height: 1.6;
 }
 
 .card {
   background: white;
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
-  padding: 30px;
-  border-radius: 10px;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
-  margin-bottom: 5px;
-  color: #2c3e50;
+   margin-bottom: 6px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
 }
 
 .role {
-  color: #00796b;
-  margin-bottom: 20px;
+  ccolor: #0284c7;
+  font-weight: 500;
+  margin-bottom: 30px;
 }
 
 h2 {
-  color: #333;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #1e293b;
 }
 
 ul {
   padding-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 6px;
+  color: #334155;
 }
 
 .project {
-  background-color: #f9f9f9;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 8px;
+  background-color: #f8fafc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
 }
 
 .project h3 {
-  margin-top: 0;
-  color: #00796b;
+ margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #0369a1;
+}
+
+.project p {
+  margin: 0;
+  color: #475569;
 }
